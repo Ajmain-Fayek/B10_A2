@@ -6,10 +6,235 @@
 /* ----------------------------------- Fonts ---------------------------------- */
 
 /* ----------------------------------- Universal Selector ---------------------------------- */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: inter;
 }
+
 /* ----------------------------------- Universal Selector ---------------------------------- */
+/* ----------------------------------- Common styles ---------------------------------- */
+.max-width {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    font-size: 1.125rem;
+    color: var(--text_1);
+    font-weight: 700;
+    background-color: var(--orange_1);
+    border: none;
+    padding: 1rem 2.5rem;
+    border-radius: 2.625rem;
+}
+
+/* ----------------------------------- Common styles ---------------------------------- */
+/* ----------------------------------- Root variables ---------------------------------- */
+:root {
+    --orange_1: #e6533c;
+    --text_1: #ffffff;
+    --text_2: #ffffff89;
+    --text_3: #ffffff77;
+    --text_4: #ffffff22;
+    --text_5: #ffffff11;
+    --text_6: #000000;
+    --background_1: #222222;
+    --background_2: #22222277;
+    --filter_1: #06ffd277;
+    --filter_2: #ff000043;
+    --filter_3: #00000077;
+    --filter_4: #00000077;
+    --filter_5: #42ff0043;
+    --filter_6: #0047ff43;
+}
+
+/* ----------------------------------- Root variables ---------------------------------- */
+/* ----------------------------------- Header ---------------------------------- */
+.header {
+    background: linear-gradient(0deg, #000, #ffffff01, #ffffff02, #111),
+        var(--background_1);
+}
+/* ------------ Nav Bar ----------- */
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3.5625rem 0;
+    color: var(--text_1);
+
+    /* border: 1px solid; */
+}
+
+.navBar h2 {
+    color: var(--orange_1);
+    font-size: 2.375rem;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.nav-item {
+    display: flex;
+    gap: 2.9375rem;
+    border: 1px solid var(--text_4);
+    border-radius: 2.875rem;
+    padding: .6rem 0.1rem;
+}
+
+.nav-link {
+    list-style: none;
+}
+
+.nav-link a {
+    font-size: 1.125rem;
+    text-decoration: none;
+    color: var(--text_1);
+    /* background-color: var(--orange_1); */
+    border-radius: 2.875rem;
+    padding: .5rem 1.5rem;
+}
+
+.home {
+    background-color: var(--orange_1);
+}
+
+.menu {
+    display: none;
+}
+
+/* ------------ Nav Bar ----------- */
+/* ------------ Cover ----------- */
+.cover {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    color: var(--text_1);
+}
+
+.cvr-item_1 {
+    margin: 5rem 10rem 5rem 0;
+    width: 70%;
+}
+
+.cvr-item_1 h1 {
+    font-size: 4.875rem;
+    font-weight: 900;
+    color: var(--text_1)
+}
+
+.cvr-item_1>h1 span {
+    font-family: "Dancing Script";
+}
+
+.cvr-item_1 p {
+    font-size: 1rem;
+    color: var(--text_3);
+    line-height: 1.5rem;
+    margin: 1.75rem 0;
+}
+
+.cvr-item_1-btn {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.btn_1 {
+    background-color: #222222;
+    border: 1px solid var(--text_1);
+}
+
+.cvr-item_2 {
+    background: url("../images/Images 2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.blur {
+    background: var(--text_5);
+    backdrop-filter: blur(14px);
+    height: 7rem;
+    width: 12.0625rem;
+    border-radius: .75rem;
+    border: 1px solid var(--text_5);
+}
+
+.blur_2 {
+    width: 12.875rem;
+}
+
+.vr-item_2{
+    position: relative;
+}
+
+.cvr-itm2-card_1 {
+    position: absolute;
+    top: 7.8125rem;
+    right: -3.5rem;
+}
+
+.triangle {
+    position: absolute;
+    top: 17rem;
+    left: -3.75rem;
+}
+
+.cvr-itm2-card_2 {
+    position: absolute;
+    left: -5rem;
+    bottom: 3.9375rem;
+} 
+
+.cvr-itm2-card h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--text_1);
+}
+
+.cvr-itm2-card h5 {
+    font-size: 1rem;
+    color: var(--text_3);
+    font-weight: 400;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 0.6rem solid transparent;
+    border-left: 1.25rem solid var(--text_1);
+    border-bottom: 0.6rem solid transparent;
+}
+
+
+.cvr-itm2-card_1 .a1 {
+    position: absolute;
+    top: 1.2rem;
+    left: 1.15rem;
+}
+
+.cirlce {
+    height: 2.5rem;
+    width: 2.5rem;
+    background: var(--orange_1);
+    border-radius: 50%;
+}
+
+.cvr-itm2-card_2_div {
+    position: relative;
+}
+
+.cvr-itm2-card_2_div .a2 {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    top: 1.2rem;
+    left: 1rem;
+}
+
+/* ------------ Cover ----------- */
+
+/* ----------------------------------- Header ---------------------------------- */
