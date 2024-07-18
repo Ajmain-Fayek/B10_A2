@@ -19,32 +19,34 @@
         top: 3.5rem;
         border-radius: 1.8rem;
     }
-
+    
     .menu {
         display: block;
         position: absolute;
         top: 4.5rem;
         right: 0;
     }
-
+    /* ---------------- Nav Bar----------------- */
+    
+    /* ---------------- Cover ----------------- */
     .btn {
         font-size: .8rem;
         padding: .5rem 1rem;
     }
-
+    
     .cvr-item_1-btn {
         width: 100%;
         justify-content: space-evenly;
     }
-
+    
     .cover {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        margin-left: .5rem;
-        margin-right: .5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
         margin-top: -5rem;
     }
-
+    
     .cvr-item {
         padding: 5rem 0;
     }
@@ -52,7 +54,7 @@
         width: 100%;
         margin: 0 0 2rem 0;
     }
-
+    
     .cvr-item_2 {
         width: 100%;
         margin: 0 auto;
@@ -60,27 +62,27 @@
         margin-top: -3rem;
         /* background-size: cover; */
     }
-
+    
     .cvr-item_1 h1 {
         font-size: 2.5rem;
     }
-
+    
     .cvr-item_1 p {
         font-size: 1rem;
     }
-
+    
     .cvr-itm2-card h1 {
         font-size: 1.5rem;
         font-weight: 900;
         color: var(--text_1);
     }
-
+    
     .cvr-itm2-card h5 {
         font-size: .8rem;
         color: var(--text_3);
         font-weight: 400;
     }
-
+    
     .cvr-itm2-card_1 {
         top: 5rem;
         right: 0;
@@ -89,12 +91,12 @@
         height: 5rem;
         width: 8rem;
     }
-
+    
     .cvr-itm2-card_1 .a1 {
         top: .8rem;
         left: 1.2rem;
     }
-
+    
     .blur_2 {
         width: 9rem;
     }
@@ -108,5 +110,35 @@
         top: .8rem;
         left: 1rem;
     }
-    /* ---------------- Nav Bar----------------- */
+    /* ---------------- Cover ----------------- */
+    /* ---------------- Change your Habit ----------------- */
+    .change_your_havit-content {
+        grid-template-columns: repeat(1, 1fr);
+        width: 85%;
+        gap: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .change_your_habit-title {
+        width: 85%;
+    }
+
+    .content-title h2 {
+        color: var(--text_1);
+        font-weight: 900;
+        font-size: 2rem;
+    }
+    
+    .content-title p {
+        color: var(--text_3);
+        font-size: .9rem;
+        line-height: 1.5rem;
+        margin: 1rem 0;
+    }
+
+    .card img {
+        margin: 1.5rem 0;
+    }
+    /* ---------------- Change your Habit ----------------- */
 }

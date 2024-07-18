@@ -5,20 +5,27 @@
         margin-left: 1.875rem;
         margin-right: 1.875rem;
     }
-
+    /* ----------- Cover -------------- */
     .cover {
         grid-template-columns: 2fr 1fr;
     }
-
+    
     .cvr-item_1 {
         width: 100%;
     }
-
-
+    
+    
     .cvr-item_2 {
         width: 100%;
         margin: 0 auto;
     }
+    /* ----------- Cover -------------- */
 
-    /* ------------------ Nav Bar ----------------- */
+    /* ------------------ Change your habit ----------------- */
+    .change_your_havit-content {
+        gap: 2.5rem;
+        margin-top: 2rem;
+        padding: 0 1rem;
+    }
+    /* ------------------ Change your habit ----------------- */
 }

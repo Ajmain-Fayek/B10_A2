@@ -31,6 +31,25 @@
     border-radius: 2.625rem;
 }
 
+.content-title {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content-title h2 {
+    color: var(--text_1);
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.content-title p {
+    color: var(--text_3);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 1rem 0;
+}
+
 /* ----------------------------------- Common styles ---------------------------------- */
 /* ----------------------------------- Root variables ---------------------------------- */
 :root {
@@ -56,8 +75,9 @@
 .header {
     background: linear-gradient(0deg, #000, #ffffff01, #ffffff02, #111),
         var(--background_1);
-        overflow-x: hidden;
+    overflow-x: hidden;
 }
+
 /* ------------ Nav Bar ----------- */
 .navBar {
     display: flex;
@@ -166,7 +186,7 @@
     width: 12.875rem;
 }
 
-.vr-item_2{
+.vr-item_2 {
     position: relative;
 }
 
@@ -186,7 +206,7 @@
     position: absolute;
     left: -5rem;
     bottom: 3.9375rem;
-} 
+}
 
 .cvr-itm2-card h1 {
     font-size: 2.5rem;
@@ -239,3 +259,48 @@
 /* ------------ Cover ----------- */
 
 /* ----------------------------------- Header ---------------------------------- */
+/* ----------------------------------- Main ---------------------------------- */
+.main {
+    background: black;
+}
+/* --------------- Change Your Habit Section --------- */
+.change_your_habit-section {
+    background: var(--text_6);
+    padding: 6.25rem 0;
+}
+
+.change_your_havit-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3.5rem;
+    margin-top: 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 50%;
+    margin: 2.5rem 0;
+}
+
+.card h3 {
+    font-size: 1.1rem;
+    color: var(--text_1);
+    font-weight: 600;
+}
+
+.card p {
+    color: var(--text_3);
+    line-height: 1.5rem;
+    margin-top: .5rem;
+    font-size: .9rem;
+}
+
+/* --------------- Change Your Habit Section --------- */
+/* ----------------------------------- Main ---------------------------------- */

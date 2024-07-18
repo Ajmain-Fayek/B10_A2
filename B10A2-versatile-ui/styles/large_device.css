@@ -6,21 +6,36 @@
         margin-left: 1.875rem;
         margin-right: 1.875rem;
     }
-
+    /* ------------------ Nav Bar ----------------- */
+    
+    /* ------------------ Cover ----------------- */
     .cover {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, 1fr);
         margin-left: 5rem;
         margin-right: 5rem;
     }
-
+    
     .cvr-item_1 {
         width: 100%;
     }
-
+    
     .cvr-item_2 {
         width: 70%;
         margin: 0 auto;
     }
-    /* ------------------ Nav Bar ----------------- */
+    /* ------------------ Cover ----------------- */
+    /* ------------------ Change Your Habit ----------------- */
+    .change_your_havit-content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .change_your_habit-title {
+        width: 60%;
+    }
+    /* ------------------ Change Your Habit ----------------- */
 }
