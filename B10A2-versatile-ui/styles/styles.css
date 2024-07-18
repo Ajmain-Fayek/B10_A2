@@ -56,6 +56,7 @@
 .header {
     background: linear-gradient(0deg, #000, #ffffff01, #ffffff02, #111),
         var(--background_1);
+        overflow-x: hidden;
 }
 /* ------------ Nav Bar ----------- */
 .navBar {
@@ -172,7 +173,7 @@
 .cvr-itm2-card_1 {
     position: absolute;
     top: 7.8125rem;
-    right: -3.5rem;
+    right: 0;
 }
 
 .triangle {

@@ -1,4 +1,4 @@
-@media screen and (min-width:1025px) and (max-width:1450px) {
+@media screen and (min-width:1025px) and (max-width:1440px) {
 
     /* ------------------ Nav Bar ----------------- */
     .navBar, .cover {
@@ -7,7 +7,7 @@
     }
 
     .cover {
-        grid-template-columns: 1.65fr 1.35fr;
+        grid-template-columns: 2fr 1fr;
     }
 
     .cvr-item_1 {
@@ -16,7 +16,7 @@
 
 
     .cvr-item_2 {
-        width: 60%;
+        width: 100%;
         margin: 0 auto;
     }
 
