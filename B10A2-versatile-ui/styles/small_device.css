@@ -32,6 +32,11 @@
         padding: .5rem 1rem;
     }
 
+    .cvr-item_1-btn {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
     .cover {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, 1fr);
