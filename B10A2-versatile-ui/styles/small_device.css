@@ -35,10 +35,9 @@
     .cover {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        margin-top: -6rem;
-        margin-bottom: -3rem;
         margin-left: .5rem;
         margin-right: .5rem;
+        margin-top: -5rem;
     }
 
     .cvr-item {
@@ -52,7 +51,8 @@
     .cvr-item_2 {
         width: 100%;
         margin: 0 auto;
-        /* background-position: center bottom; */
+        background-position: top;
+        margin-top: -3rem;
         /* background-size: cover; */
     }
 
