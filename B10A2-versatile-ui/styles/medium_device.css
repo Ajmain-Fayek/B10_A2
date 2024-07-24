@@ -11,13 +11,14 @@
         gap: 0.3rem;
         padding: .4rem 0.1rem;
     }
-    
+
     .nav-link a {
         font-size: 1rem;
         padding: .3rem 1rem;
     }
+
     /* ----------------- Nav Bar ------------------ */
-    
+
     /* ----------------- Cover ------------------ */
     .cover {
         grid-template-columns: repeat(1, 1fr);
@@ -25,14 +26,16 @@
         margin-left: 2.5rem;
         margin-right: 2.5rem;
     }
-    .cvr-item_1{
+
+    .cvr-item_1 {
         width: 100%;
     }
-    
+
     .cvr-item_2 {
         width: 60%;
         margin: 0 auto;
     }
+
     /* ----------------- Cover ------------------ */
     /* ----------------- Change your Habit ------------------ */
     .change_your_havit-content {
@@ -45,5 +48,23 @@
     .change_your_habit-title {
         width: 70%;
     }
+
     /* ----------------- Change your Habit ------------------ */
+    /* ------------------ Run an Extra Mile Easily ----------------- */
+    .run_an_extra_miles {
+        margin-left: 1.875rem;
+        margin-right: 1.875rem;
+        grid-template-columns: 2fr 1fr;
+        padding: 2rem;
+    }
+
+    .content_title_run_an_extra_miles {
+        width: 80%;
+    }
+
+    .image_run_an_extra_mile {
+        background-position: -32rem -5rem;
+        background-size: 60rem;
+    }
+    /* ------------------ Run an Extra Mile Easily ----------------- */
 }

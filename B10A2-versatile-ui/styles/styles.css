@@ -29,6 +29,7 @@
     border: none;
     padding: 1rem 2.5rem;
     border-radius: 2.625rem;
+    cursor: pointer;
 }
 
 .content-title {
@@ -175,6 +176,7 @@
 
 .blur {
     background: var(--text_5);
+    -webkit-backdrop-filter: blur(14px);
     backdrop-filter: blur(14px);
     height: 7rem;
     width: 12.0625rem;
@@ -301,6 +303,41 @@
     margin-top: .5rem;
     font-size: .9rem;
 }
-
 /* --------------- Change Your Habit Section --------- */
+/* --------------- Run an Extra Mile Section --------- */
+.run_an_extra_miles {
+    background: var(--background_1);
+    border-radius: 1.125rem;
+    padding: 3rem;
+    margin-bottom: 3.125rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+    /* border: 1px solid #fff; */
+}
+
+.content_title_run_an_extra_miles {
+    text-align: left;
+    margin: auto 1.5rem;
+    width: 60%;
+}
+
+.run_an_extra_mile_btn {
+    margin-top: 2.125rem;
+}
+
+.image_run_an_extra_mile {
+    background: url("../images/run.jpg");
+    background-repeat: no-repeat;
+    background-position: -24.5rem -7.5rem;
+    border-radius: 1.125rem;
+    background-size: 55rem;
+}
+/* --------------- Run an Extra Mile Section --------- */
+/* --------------- Training and Exercise Section --------- */
+.content_title_training_and_exercise {
+    margin-top: 3.125rem;
+    text-align: left;
+}
+/* --------------- Training and Exercise Section --------- */
 /* ----------------------------------- Main ---------------------------------- */

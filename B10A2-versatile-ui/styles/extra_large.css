@@ -1,7 +1,10 @@
 @media screen and (min-width:1025px) and (max-width:1440px) {
 
     /* ------------------ Nav Bar ----------------- */
-    .navBar, .cover {
+    .navBar, 
+    .cover,
+    .change_your_habit-section, 
+    .run_an_extra_miles {
         margin-left: 1.875rem;
         margin-right: 1.875rem;
     }
@@ -28,4 +31,10 @@
         padding: 0 1rem;
     }
     /* ------------------ Change your habit ----------------- */
+    /* ------------------ Run an Extra Mile Easily ----------------- */
+    .image_run_an_extra_mile {
+        background-position: -26rem -7.5rem;
+    }
+    /* ------------------ Run an Extra Mile Easily ----------------- */
+    /* ------------------ Run an Extra Mile Easily ----------------- */
 }
