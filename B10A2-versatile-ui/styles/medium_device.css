@@ -72,6 +72,9 @@
         margin-left: 1.875rem;
         margin-right: 1.875rem;
     }
+    .content_title_training_and_exercise {
+        width: 90%;
+    }
     .exercise_1 {
         width: 30%;
     }

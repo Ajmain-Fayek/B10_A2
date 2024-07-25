@@ -184,6 +184,10 @@
         margin-right: 1rem;
     }
 
+    .content_title_training_and_exercise {
+        width: 90%;
+    }
+
     .image_training_and_exercise p {
         font-size: .9rem;
         margin: 1rem;
