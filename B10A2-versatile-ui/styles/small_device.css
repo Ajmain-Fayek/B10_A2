@@ -179,7 +179,9 @@
 
     /* ------------------ Run an Extra Mile Easily ----------------- */
     /* ------------------ Training and Exercise ----------------- */
-    .training_and_exercise {
+    .training_and_exercise,
+    .bmi_calculator_section,
+    .bmi_calculator_title {
         margin-left: 1rem;
         margin-right: 1rem;
     }
@@ -214,4 +216,28 @@
         display: none;
     }
     /* ------------------ Training and Exercise ----------------- */
+    /* ------------------ BMI Calculator ----------------- */
+    .bmi_calculator_section {
+        flex-direction: column;
+    }
+    .bmi_calculator_title_content {
+        margin: 5.5rem 0;
+        width: 90%;
+    }
+    .calculator-content_1 {
+        grid-template-columns: 1fr;
+    }
+    table {
+        height: 13.5rem;
+        width: 100%;
+    }
+    .calculator_btn {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1rem;
+        padding-top: .7rem;
+        padding-bottom: .7rem;
+    }
+    /* ------------------ BMI Calculator ----------------- */
 }

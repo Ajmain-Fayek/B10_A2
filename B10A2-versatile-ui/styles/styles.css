@@ -340,7 +340,7 @@
 /* --------------- Run an Extra Mile Section --------- */
 /* --------------- Training and Exercise Section --------- */
 .training_and_exercise {
-    margin-top: 5rem;
+    margin-top: 5.5rem;
 }
 
 .content_title_training_and_exercise {
@@ -363,7 +363,7 @@
     /* border: 5px solid red; */
 }
 
-.image_training_and_exercise  p{
+.image_training_and_exercise p {
     margin: 1.4375rem 2.125rem;
     color: var(--text_1);
     font-size: 1rem;
@@ -455,4 +455,137 @@
 }
 
 /* --------------- Training and Exercise Section --------- */
+/* --------------- BMI Calculator Section --------- */
+.bmi_calculator {
+    background: var(--background_1);
+    padding: 5rem 0;
+}
+
+.bmi_calculator_section {
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+}
+
+.bmi_calculator_title_content {
+    text-align: left;
+    margin: 5.5rem auto;
+}
+
+
+.bmi_calculator_chart {
+    color: var(--text_1);
+}
+
+
+.bmi_calculator_chart h3 {
+    margin-bottom: 3.25rem;
+    font-size: 1.75rem;
+}
+
+table,
+th,
+td {
+    border: 1px solid var(--text_4);
+    color: var(--text_3);
+    border-collapse: collapse;
+    text-align: left;
+}
+table th {
+    color: var(--text_1);
+    font-weight: 400;
+}
+
+table td, th {
+    padding-left: 1rem;
+}
+table {
+    height: 13.5rem;
+    width: 19.375rem;
+}
+
+.calculate_your_bmi h3 {
+    font-size: 1.75rem;
+    color: var(--text_1);
+}
+
+.calculate_your_bmi p {
+    color: var(--text_2);
+    line-height: 1.5rem;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.calculator-content_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.75rem;
+    margin: 0.75rem 0;
+}
+
+.calculator-content_1 input {
+    color: var(--text_3);
+}
+
+.calculator-content_1 input::placeholder {
+    font-size: 1rem;
+    color: var(--text_3);
+}
+
+/* Chrome, Safari, Edge, Opera */
+.calculator-content_1 input::-webkit-outer-spin-button,
+.calculator-content_1 input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.calculator-content_1 .item, .activity {
+    padding: 0.75rem 1.25rem;
+    border-radius: .5rem;
+    background-color: var(--text_4);
+    border: none;
+    outline: none;
+    color: var(--text_3);
+}
+
+.sex {
+    background-color: var(--text_4);
+    display: flex;
+    justify-content: space-between;
+}
+
+.activity {
+    margin-bottom: 0.75rem;
+}
+
+.list {
+    background: var(--background_1);
+    color: var(--text_2);
+    font-size: 1rem;
+}
+
+#sex, #activity {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: var(--text_3);
+    width: 50%;
+    cursor: pointer;
+}
+
+.calculator_btn {
+    margin-top: 1.5rem;
+}
+
+.item:focus {
+    box-shadow: 1px 1px 3px 0 var(--text_2);
+}
+/* --------------- BMI Calculator Section --------- */
 /* ----------------------------------- Main ---------------------------------- */

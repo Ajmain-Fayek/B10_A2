@@ -5,7 +5,8 @@
     .cover,
     .change_your_habit-section, 
     .run_an_extra_miles ,
-    .training_and_exercise {
+    .training_and_exercise,
+    .bmi_calculator_section {
         margin-left: 1.875rem;
         margin-right: 1.875rem;
     }
