@@ -81,5 +81,9 @@
     .exercise_3 {
         width: 30%;
     }
+    .exercise_4 {
+        justify-content: start;
+        align-items: end;
+    }
     /* ------------------ Training and Exercise ----------------- */
 }

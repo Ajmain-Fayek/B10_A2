@@ -183,15 +183,23 @@
         margin-left: 1rem;
         margin-right: 1rem;
     }
+
+    .image_training_and_exercise p {
+        font-size: .9rem;
+    }
     .exercise_1 {
         width: 55%;
         background-position: center;
+        justify-content: start;
+        align-items: end;
     }
     .exercise_2 {
         width: 45%;
     }
     .exercise_4 {
         width: 45%;
+        justify-content: start;
+        align-items: end;
     }
     .exercise_5 {
         width: 55%;
