@@ -178,4 +178,27 @@
     }
 
     /* ------------------ Run an Extra Mile Easily ----------------- */
+    /* ------------------ Training and Exercise ----------------- */
+    .training_and_exercise {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .exercise_1 {
+        width: 55%;
+        background-position: center;
+    }
+    .exercise_2 {
+        width: 45%;
+    }
+    .exercise_4 {
+        width: 45%;
+    }
+    .exercise_5 {
+        width: 55%;
+    }
+
+    .exercise_3, .exercise_6 {
+        display: none;
+    }
+    /* ------------------ Training and Exercise ----------------- */
 }

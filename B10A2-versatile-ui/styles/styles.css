@@ -265,6 +265,7 @@
 .main {
     background: black;
 }
+
 /* --------------- Change Your Habit Section --------- */
 .change_your_habit-section {
     background: var(--text_6);
@@ -287,6 +288,7 @@
 }
 
 .card img {
+    border: 4px solid var(--text_4);
     border-radius: 50%;
     margin: 2.5rem 0;
 }
@@ -303,6 +305,7 @@
     margin-top: .5rem;
     font-size: .9rem;
 }
+
 /* --------------- Change Your Habit Section --------- */
 /* --------------- Run an Extra Mile Section --------- */
 .run_an_extra_miles {
@@ -333,11 +336,96 @@
     border-radius: 1.125rem;
     background-size: 55rem;
 }
+
 /* --------------- Run an Extra Mile Section --------- */
 /* --------------- Training and Exercise Section --------- */
+.training_and_exercise {
+    margin-top: 5rem;
+}
+
 .content_title_training_and_exercise {
-    margin-top: 3.125rem;
+    margin: 3.125rem 0 0 0;
     text-align: left;
 }
+
+.card_training_and_exercise_1,
+.card_training_and_exercise_2 {
+    display: flex;
+    flex-direction: row;
+
+    /* border: 5px solid #fff; */
+}
+
+.image_training_and_exercise {
+    height: 15.625rem;
+
+    /* border: 5px solid red; */
+}
+
+.exercise_1 {
+    background: linear-gradient(0deg, var(--filter_1), var(--filter_1)),
+        url("../images/exercise1.jpg");
+    width: 20%;
+
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.exercise_2 {
+    background: linear-gradient(0deg, var(--filter_2), var(--filter_2)),
+        url("../images/exercise2.png");
+    grid-area: exercise_2;
+    width: 50%;
+
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.exercise_3 {
+    background: linear-gradient(0deg, var(--filter_3), var(--filter_3)),
+        url("../images/exercise3.png");
+    grid-area: exercise_3;
+    width: 30%;
+
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.exercise_4 {
+    background: linear-gradient(0deg, var(--filter_4), var(--filter_4)),
+        url("../images/exercise4.png");
+    grid-area: exercise_4;
+    width: 35%;
+
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.exercise_5 {
+    background: linear-gradient(0deg, var(--filter_5), var(--filter_5)),
+        url("../images/exercise5.jpg");
+    grid-area: exercise_5;
+    width: 25%;
+
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.exercise_6 {
+    background: linear-gradient(0deg, var(--filter_6), var(--filter_6)),
+        url("../images/exercise6.jpg");
+    grid-area: exercise_6;
+    width: 40%;
+
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
 /* --------------- Training and Exercise Section --------- */
 /* ----------------------------------- Main ---------------------------------- */
