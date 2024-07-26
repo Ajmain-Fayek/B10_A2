@@ -70,7 +70,8 @@
     /* ------------------ Training and Exercise ----------------- */
     .training_and_exercise,
     .bmi_calculator_section,
-    .bmi_calculator_title {
+    .bmi_calculator_title,
+    .meet_our_team {
         margin-left: 1.875rem;
         margin-right: 1.875rem;
     }
@@ -100,4 +101,9 @@
         flex-direction: column;
     }
     /* ------------------ BMI Calculator ----------------- */
+    /* ------------------ Meet Our Team ----------------- */
+    .meet_out_team-title {
+        width: 90%;
+    }
+    /* ------------------ Meet Our Team ----------------- */
 }

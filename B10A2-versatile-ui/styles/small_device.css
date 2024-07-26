@@ -181,7 +181,8 @@
     /* ------------------ Training and Exercise ----------------- */
     .training_and_exercise,
     .bmi_calculator_section,
-    .bmi_calculator_title {
+    .bmi_calculator_title,
+    .meet_out_team-title {
         margin-left: 1rem;
         margin-right: 1rem;
     }
@@ -231,6 +232,7 @@
         height: 13.5rem;
         width: 100%;
     }
+
     .calculator_btn {
         width: 100%;
         margin-left: auto;
@@ -240,4 +242,12 @@
         padding-bottom: .7rem;
     }
     /* ------------------ BMI Calculator ----------------- */
+    /* ------------------ Meet Our Team ----------------- */
+    .meet-our_team-card {
+        grid-template-columns: 1fr;
+    }
+    .meet_out_team-title {
+        width: 90%;
+    }
+    /* ------------------ Meet Our Team ----------------- */
 }
