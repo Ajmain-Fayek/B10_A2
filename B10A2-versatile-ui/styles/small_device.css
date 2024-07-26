@@ -225,6 +225,10 @@
         margin: 5.5rem 0;
         width: 90%;
     }
+    .bmi_calculator_chart h3,
+    .calculate_your_bmi h3 {
+        font-size: 1.5rem;
+    }
     .calculator-content_1 {
         grid-template-columns: 1fr;
     }
