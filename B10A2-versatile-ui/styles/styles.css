@@ -63,6 +63,7 @@
     --text_6: #000000;
     --background_1: #222222;
     --background_2: #22222277;
+    --background_3: #2a2a2a;
     --filter_1: #06ffd277;
     --filter_2: #ff000043;
     --filter_3: #00000077;
@@ -117,6 +118,10 @@
     /* background-color: var(--orange_1); */
     border-radius: 2.875rem;
     padding: .5rem 1.5rem;
+}
+
+.nav-link a:hover {
+    text-decoration: underline;
 }
 
 .home {
@@ -600,7 +605,8 @@ input[type=number] {
 /* --------------- BMI Calculator Section --------- */
 /* --------------- Meet Our Team Section --------- */
 .meet_our_team {
-    margin: 5.5rem auto;
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
 }
 
 .meet_out_team-title {
@@ -612,7 +618,7 @@ input[type=number] {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 1.125rem;
-    background: var(--background_1);
+    background: var(--background_3);
     padding: 1.25rem;
     border-radius: 1.125rem;
 }
@@ -624,6 +630,7 @@ input[type=number] {
     border-radius: 1.125rem;
     height: 17rem;
 }
+
 .card_text {
     margin: 1rem 1.125rem;
     text-align: left;
@@ -634,6 +641,7 @@ input[type=number] {
     font-weight: 600;
     color: var(--text_1);
 }
+
 .card_text p {
     font-size: 1rem;
     font-weight: 400;
@@ -685,3 +693,81 @@ input[type=number] {
 
 /* --------------- Meet Our Team Section --------- */
 /* ----------------------------------- Main ---------------------------------- */
+/* ----------------------------------- Footer ---------------------------------- */
+.footer {
+    background: var(--background_3);
+    padding-top: 4.125rem;
+    padding-bottom: 2.1875rem;
+}
+
+.footer_content {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 4.375rem;
+}
+
+.about_part {
+    width: 50%;
+}
+
+.about_part h1 {
+    font-size: 4.375rem;
+    font-weight: 800;
+    color: var(--orange_1);
+    font-style: italic;
+    margin-bottom: 1.25rem;
+}
+
+.about_part p,
+.copyright_part p {
+    color: var(--text_2);
+    line-height: 1.5rem;
+}
+
+.about_part p{
+    width: 70%;
+}
+
+.about_part_links {
+    width: 50%;
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.get_started_part {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.get_started_part h3 {
+    color: var(--text_1);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.get_started_part a {
+    font-size: 1.4375rem;
+    text-decoration: none;
+    color: var(--text_2);
+}
+
+.get_started_part a:hover {
+    text-decoration: underline;
+}
+
+.copyright_part {
+    text-align: center;
+}
+
+.hr {
+    border: 1px solid var(--text_4);
+    margin-bottom: 2.25rem;
+}
+
+/* ----------------------------------- Footer ---------------------------------- */
