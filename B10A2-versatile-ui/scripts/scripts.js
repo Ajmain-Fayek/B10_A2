@@ -21,7 +21,7 @@ function bmi_calculator() {
         alert("To Calculate BMI, fill all the input Sections");
     }
     else {
-        bmi = weight.value / Math.pow(height.value, 2);
+        bmi = weight.value / Math.pow((height.value/100), 2);
         bmi.toFixed(1);
         console.log(bmi);
         motivation_quote();
