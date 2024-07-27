@@ -249,6 +249,13 @@
         width: 100%;
     }
 
+    #reset {
+        font-size: 1rem;
+        padding-top: .7rem;
+        padding-bottom: .7rem;
+        width: 100%;
+    }
+
     .calculator_btn {
         width: 100%;
         margin-left: auto;

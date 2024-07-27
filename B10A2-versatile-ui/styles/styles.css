@@ -572,6 +572,7 @@ input[type=number] {
 
 .activity {
     margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
 }
 
 .list {
@@ -590,12 +591,27 @@ input[type=number] {
     cursor: pointer;
 }
 
+#reset {
+    display: none;
+    font-size: 1.125rem;
+    font-weight: 700;
+    padding: 1rem 3.5rem;
+    border-radius: 2.625rem;
+    cursor: pointer;
+    color: var(--text_2);
+    background: var(--background_1);
+    border: 1px solid var(--text_4);
+    margin-top: 1.5rem;
+}
+
 .calculator_btn {
     margin-top: 1.5rem;
 }
 
-.result {
+#result, #motivation {
     display: none;
+    line-height: 1.5rem;
+    margin: .5rem 0;
 }
 
 .item:focus {
