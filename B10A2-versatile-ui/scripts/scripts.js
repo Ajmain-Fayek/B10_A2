@@ -1,4 +1,20 @@
 // --------------   Menu button -------------------------- //
+const menu_btn = document.querySelector("#menu");
+const menu_close = document.querySelector("#menu_close");
+
+menu_btn.addEventListener('click', function(){
+    document.querySelector("#navBar").style.marginBottom = "10rem";
+    document.querySelector("#nav-item").style.display = "block";
+    menu_btn.style.display = "none";
+    menu_close.style.display = "block";
+})
+
+menu_close.addEventListener('click', function(){
+    document.querySelector("#navBar").style.marginBottom = "2rem";
+    document.querySelector("#nav-item").style.display = "none";
+    menu_btn.style.display = "block";
+    menu_close.style.display = "none";
+})
 // --------------   Menu button -------------------------- //
 // --------------   BMI Calculator -------------------------- //
 const button = document.getElementById("calculate");
