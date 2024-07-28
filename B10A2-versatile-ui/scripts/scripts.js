@@ -10,7 +10,7 @@ menu_btn.addEventListener('click', function(){
 })
 
 menu_close.addEventListener('click', function(){
-    document.querySelector("#navBar").style.marginBottom = "2rem";
+    document.querySelector("#navBar").style.marginBottom = "0";
     document.querySelector("#nav-item").style.display = "none";
     menu_btn.style.display = "block";
     menu_close.style.display = "none";
