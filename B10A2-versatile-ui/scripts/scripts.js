@@ -33,8 +33,11 @@ button.addEventListener('click', bmi_calculator)
 
 // Calculator
 function bmi_calculator() {
-    if (height.value === "" || weight.value === "" || age.value === "" || sex.value === "") {
+    if (height.value === "" || weight.value === "" || sex.value === "") {
         alert("To Calculate BMI, fill all the input Sections");
+    }
+    else if (age.value === "" || age.value <= 1 || age.value > 120){
+        alert("Invalid age. Age limit is between 2-120");
     }
     else {
         bmi = weight.value / Math.pow((height.value/100), 2);
