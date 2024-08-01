@@ -340,7 +340,8 @@ body {
 .image_run_an_extra_mile {
     background: url("../images/run.jpg");
     background-repeat: no-repeat;
-    background-position: -24.5rem -7.5rem;
+    background-position-y: 30%;
+    background-position-x: 70%;
     border-radius: 1.125rem;
     background-size: 55rem;
 }
@@ -384,7 +385,8 @@ body {
     width: 20%;
 
     background-size: cover;
-    background-position: top;
+    background-position-y: 50%;
+    background-position-x: 20%;
     background-repeat: no-repeat;
 
     justify-content: start;
@@ -402,7 +404,8 @@ body {
     width: 50%;
 
     background-size: cover;
-    background-position: top;
+    background-position-y: 50%;
+    background-position-x: 70%;
     background-repeat: no-repeat;
 }
 
@@ -413,7 +416,8 @@ body {
     width: 30%;
 
     background-size: cover;
-    background-position: top;
+    background-position-y: 50%;
+    background-position-x: 60%;
     background-repeat: no-repeat;
 
     justify-content: start;
@@ -427,7 +431,8 @@ body {
     width: 35%;
 
     background-size: cover;
-    background-position: top;
+    background-position-y: 50%;
+    background-position: 30%;
     background-repeat: no-repeat;
 
     justify-content: end;
@@ -441,7 +446,7 @@ body {
     width: 25%;
 
     background-size: cover;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
 
     justify-content: start;
@@ -455,7 +460,8 @@ body {
     width: 40%;
 
     background-size: cover;
-    background-position: top;
+    background-position-y: 70%;
+    background-position-x: 35%;
     background-repeat: no-repeat;
 
     justify-content: start;
@@ -672,42 +678,48 @@ input[type=number] {
     background: url("../images/trainer1.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position-y: 0;
+    background-position-x: 55%;
 }
 
 .card_2 {
     background: url("../images/trainer2.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position-y: 0;
+    background-position-x: 60%;
 }
 
 .card_3 {
     background: url("../images/trainer3.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position-y: 0;
+    background-position-x: 50%;
 }
 
 .card_4 {
     background: url("../images/trainer4.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position-y: 0;
+    background-position-x: 70%;
 }
 
 .card_5 {
     background: url("../images/trainer5.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position-y: 45%;
+    background-position-x: 55%;
 }
 
 .card_6 {
     background: url("../images/trainer6.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position-y: 15%;
+    background-position-x: 25%;
 }
 
 /* --------------- Meet Our Team Section --------- */
